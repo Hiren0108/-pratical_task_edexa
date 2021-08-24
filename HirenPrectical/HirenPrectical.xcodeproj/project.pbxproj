@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E98ACE62BE0A1EFD51C7FEF /* Pods_HirenPrectical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39315A7978F4C2C909DA3A14 /* Pods_HirenPrectical.framework */; };
 		AC83BFC426D3DD9600513A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83BFC326D3DD9600513A07 /* AppDelegate.swift */; };
 		AC83BFC626D3DD9600513A07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83BFC526D3DD9600513A07 /* SceneDelegate.swift */; };
 		AC83BFC826D3DD9600513A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83BFC726D3DD9600513A07 /* ViewController.swift */; };
 		AC83BFCB26D3DD9600513A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC83BFC926D3DD9600513A07 /* Main.storyboard */; };
 		AC83BFCD26D3DD9800513A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC83BFCC26D3DD9800513A07 /* Assets.xcassets */; };
 		AC83BFD026D3DD9800513A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC83BFCE26D3DD9800513A07 /* LaunchScreen.storyboard */; };
+		AC83BFE626D3E07700513A07 /* ChicagoCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83BFE526D3E07700513A07 /* ChicagoCityVC.swift */; };
+		AC83BFEA26D3E08700513A07 /* LosAngelesCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83BFE926D3E08700513A07 /* LosAngelesCityVC.swift */; };
+		AC83BFED26D3E09A00513A07 /* NewYorkCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83BFEC26D3E09A00513A07 /* NewYorkCityVC.swift */; };
+		AC83BFF026D3E0AA00513A07 /* AllCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83BFEF26D3E0AA00513A07 /* AllCityVC.swift */; };
+		AC83C04226D3E1C100513A07 /* AllCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83C04126D3E1C100513A07 /* AllCityCell.swift */; };
+		AC83C04526D3E1D000513A07 /* AllCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC83C04426D3E1D000513A07 /* AllCityCell.xib */; };
+		AC83C04B26D3E1F600513A07 /* AllCityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83C04A26D3E1F600513A07 /* AllCityModel.swift */; };
+		AC83C04F26D3E22B00513A07 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83C04E26D3E22B00513A07 /* Global.swift */; };
+		AC83C06A26D3E6FF00513A07 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83C06926D3E6FF00513A07 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A78BE09B9A0B3D7EDDE4AE4 /* Pods-HirenPrectical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HirenPrectical.release.xcconfig"; path = "Target Support Files/Pods-HirenPrectical/Pods-HirenPrectical.release.xcconfig"; sourceTree = "<group>"; };
+		39315A7978F4C2C909DA3A14 /* Pods_HirenPrectical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HirenPrectical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC5AF79C277CF8FE40F2B72 /* Pods-HirenPrectical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HirenPrectical.debug.xcconfig"; path = "Target Support Files/Pods-HirenPrectical/Pods-HirenPrectical.debug.xcconfig"; sourceTree = "<group>"; };
 		AC83BFC026D3DD9600513A07 /* HirenPrectical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HirenPrectical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC83BFC326D3DD9600513A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC83BFC526D3DD9600513A07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,15 @@
 		AC83BFCC26D3DD9800513A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC83BFCF26D3DD9800513A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC83BFD126D3DD9800513A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC83BFE526D3E07700513A07 /* ChicagoCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoCityVC.swift; sourceTree = "<group>"; };
+		AC83BFE926D3E08700513A07 /* LosAngelesCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosAngelesCityVC.swift; sourceTree = "<group>"; };
+		AC83BFEC26D3E09A00513A07 /* NewYorkCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYorkCityVC.swift; sourceTree = "<group>"; };
+		AC83BFEF26D3E0AA00513A07 /* AllCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCityVC.swift; sourceTree = "<group>"; };
+		AC83C04126D3E1C100513A07 /* AllCityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCityCell.swift; sourceTree = "<group>"; };
+		AC83C04426D3E1D000513A07 /* AllCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllCityCell.xib; sourceTree = "<group>"; };
+		AC83C04A26D3E1F600513A07 /* AllCityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCityModel.swift; sourceTree = "<group>"; };
+		AC83C04E26D3E22B00513A07 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		AC83C06926D3E6FF00513A07 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E98ACE62BE0A1EFD51C7FEF /* Pods_HirenPrectical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				AC83BFC226D3DD9600513A07 /* HirenPrectical */,
 				AC83BFC126D3DD9600513A07 /* Products */,
+				BA57BABFB72085D9572E47A2 /* Pods */,
+				E4FE1779D723431AE8073153 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,129 @@
 		AC83BFC226D3DD9600513A07 /* HirenPrectical */ = {
 			isa = PBXGroup;
 			children = (
-				AC83BFC326D3DD9600513A07 /* AppDelegate.swift */,
-				AC83BFC526D3DD9600513A07 /* SceneDelegate.swift */,
-				AC83BFC726D3DD9600513A07 /* ViewController.swift */,
-				AC83BFC926D3DD9600513A07 /* Main.storyboard */,
+				AC83C05D26D3E64B00513A07 /* Utilis */,
+				AC83C04D26D3E1FF00513A07 /* Model */,
+				AC83BFDB26D3DEDA00513A07 /* StoryBoard */,
+				AC83BFDA26D3DEBA00513A07 /* ViewController */,
+				AC83BFD926D3DEAA00513A07 /* ScaneDelegate */,
+				AC83BFD826D3DE9E00513A07 /* AppDelegate */,
 				AC83BFCC26D3DD9800513A07 /* Assets.xcassets */,
-				AC83BFCE26D3DD9800513A07 /* LaunchScreen.storyboard */,
 				AC83BFD126D3DD9800513A07 /* Info.plist */,
 			);
 			path = HirenPrectical;
+			sourceTree = "<group>";
+		};
+		AC83BFD826D3DE9E00513A07 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BFC326D3DD9600513A07 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AC83BFD926D3DEAA00513A07 /* ScaneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BFC526D3DD9600513A07 /* SceneDelegate.swift */,
+			);
+			path = ScaneDelegate;
+			sourceTree = "<group>";
+		};
+		AC83BFDA26D3DEBA00513A07 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BFE426D3E05E00513A07 /* ChicagoCityVC */,
+				AC83BFE326D3E03700513A07 /* LosAngelesCityVC */,
+				AC83BFE226D3E02300513A07 /* NewYorkCityVC */,
+				AC83BFE126D3E01700513A07 /* AllCityVC */,
+				AC83BFC726D3DD9600513A07 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AC83BFDB26D3DEDA00513A07 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BFCE26D3DD9800513A07 /* LaunchScreen.storyboard */,
+				AC83BFC926D3DD9600513A07 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AC83BFE126D3E01700513A07 /* AllCityVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC83C03826D3E18000513A07 /* AllCityCell */,
+				AC83BFEF26D3E0AA00513A07 /* AllCityVC.swift */,
+			);
+			path = AllCityVC;
+			sourceTree = "<group>";
+		};
+		AC83BFE226D3E02300513A07 /* NewYorkCityVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BFEC26D3E09A00513A07 /* NewYorkCityVC.swift */,
+			);
+			path = NewYorkCityVC;
+			sourceTree = "<group>";
+		};
+		AC83BFE326D3E03700513A07 /* LosAngelesCityVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BFE926D3E08700513A07 /* LosAngelesCityVC.swift */,
+			);
+			path = LosAngelesCityVC;
+			sourceTree = "<group>";
+		};
+		AC83BFE426D3E05E00513A07 /* ChicagoCityVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC83BFE526D3E07700513A07 /* ChicagoCityVC.swift */,
+			);
+			path = ChicagoCityVC;
+			sourceTree = "<group>";
+		};
+		AC83C03826D3E18000513A07 /* AllCityCell */ = {
+			isa = PBXGroup;
+			children = (
+				AC83C04126D3E1C100513A07 /* AllCityCell.swift */,
+				AC83C04426D3E1D000513A07 /* AllCityCell.xib */,
+			);
+			path = AllCityCell;
+			sourceTree = "<group>";
+		};
+		AC83C04D26D3E1FF00513A07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC83C04A26D3E1F600513A07 /* AllCityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC83C05D26D3E64B00513A07 /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				AC83C04E26D3E22B00513A07 /* Global.swift */,
+				AC83C06926D3E6FF00513A07 /* Helper.swift */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		BA57BABFB72085D9572E47A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CC5AF79C277CF8FE40F2B72 /* Pods-HirenPrectical.debug.xcconfig */,
+				0A78BE09B9A0B3D7EDDE4AE4 /* Pods-HirenPrectical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4FE1779D723431AE8073153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39315A7978F4C2C909DA3A14 /* Pods_HirenPrectical.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC83BFD426D3DD9800513A07 /* Build configuration list for PBXNativeTarget "HirenPrectical" */;
 			buildPhases = (
+				D88AFD1B8E682BED0B3C6D37 /* [CP] Check Pods Manifest.lock */,
 				AC83BFBC26D3DD9600513A07 /* Sources */,
 				AC83BFBD26D3DD9600513A07 /* Frameworks */,
 				AC83BFBE26D3DD9600513A07 /* Resources */,
+				0B09A483A13ECCA86513F2A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +267,71 @@
 			files = (
 				AC83BFD026D3DD9800513A07 /* LaunchScreen.storyboard in Resources */,
 				AC83BFCD26D3DD9800513A07 /* Assets.xcassets in Resources */,
+				AC83C04526D3E1D000513A07 /* AllCityCell.xib in Resources */,
 				AC83BFCB26D3DD9600513A07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B09A483A13ECCA86513F2A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HirenPrectical/Pods-HirenPrectical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HirenPrectical/Pods-HirenPrectical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HirenPrectical/Pods-HirenPrectical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88AFD1B8E682BED0B3C6D37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HirenPrectical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC83BFBC26D3DD9600513A07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC83C06A26D3E6FF00513A07 /* Helper.swift in Sources */,
+				AC83C04B26D3E1F600513A07 /* AllCityModel.swift in Sources */,
 				AC83BFC826D3DD9600513A07 /* ViewController.swift in Sources */,
 				AC83BFC426D3DD9600513A07 /* AppDelegate.swift in Sources */,
+				AC83BFE626D3E07700513A07 /* ChicagoCityVC.swift in Sources */,
+				AC83BFEA26D3E08700513A07 /* LosAngelesCityVC.swift in Sources */,
 				AC83BFC626D3DD9600513A07 /* SceneDelegate.swift in Sources */,
+				AC83BFF026D3E0AA00513A07 /* AllCityVC.swift in Sources */,
+				AC83C04226D3E1C100513A07 /* AllCityCell.swift in Sources */,
+				AC83C04F26D3E22B00513A07 /* Global.swift in Sources */,
+				AC83BFED26D3E09A00513A07 /* NewYorkCityVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +475,7 @@
 		};
 		AC83BFD526D3DD9800513A07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC5AF79C277CF8FE40F2B72 /* Pods-HirenPrectical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +495,7 @@
 		};
 		AC83BFD626D3DD9800513A07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A78BE09B9A0B3D7EDDE4AE4 /* Pods-HirenPrectical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xcd-Cv-YxE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HirenPrectical" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-652" y="136"/>
+        </scene>
+        <!--New York CityVC-->
+        <scene sceneID="wY5-Pr-p3z">
+            <objects>
+                <viewController storyboardIdentifier="NewYorkCityVC" id="qMj-XD-QQb" customClass="NewYorkCityVC" customModule="HirenPrectical" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ERb-h2-fre">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LtT-6J-E4q">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SN0-1F-sN9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SN0-1F-sN9" firstAttribute="trailing" secondItem="LtT-6J-E4q" secondAttribute="trailing" id="1OM-XD-6NJ"/>
+                            <constraint firstItem="LtT-6J-E4q" firstAttribute="top" secondItem="SN0-1F-sN9" secondAttribute="top" id="AMp-D0-pQL"/>
+                            <constraint firstItem="LtT-6J-E4q" firstAttribute="leading" secondItem="SN0-1F-sN9" secondAttribute="leading" id="DPH-Ke-jnh"/>
+                            <constraint firstItem="SN0-1F-sN9" firstAttribute="bottom" secondItem="LtT-6J-E4q" secondAttribute="bottom" id="V4L-Ku-Q67"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="oFO-Mr-qag"/>
+                    <connections>
+                        <outlet property="tblNewYorkCityVC" destination="LtT-6J-E4q" id="nMi-F8-1dj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENT-Q1-thF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2579.7101449275365" y="409.82142857142856"/>
+        </scene>
+        <!--Los Angeles CityVC-->
+        <scene sceneID="JOg-Rg-fnq">
+            <objects>
+                <viewController storyboardIdentifier="LosAngelesCityVC" id="V75-kD-hti" customClass="LosAngelesCityVC" customModule="HirenPrectical" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mjw-FH-9k4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qVd-rm-Rj0">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gp9-Hd-gdp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gp9-Hd-gdp" firstAttribute="trailing" secondItem="qVd-rm-Rj0" secondAttribute="trailing" id="LPr-pq-L2J"/>
+                            <constraint firstItem="qVd-rm-Rj0" firstAttribute="top" secondItem="gp9-Hd-gdp" secondAttribute="top" id="PZw-yk-xXl"/>
+                            <constraint firstItem="gp9-Hd-gdp" firstAttribute="bottom" secondItem="qVd-rm-Rj0" secondAttribute="bottom" id="la7-ra-zzE"/>
+                            <constraint firstItem="qVd-rm-Rj0" firstAttribute="leading" secondItem="gp9-Hd-gdp" secondAttribute="leading" id="nUS-pi-jYR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="t30-XL-3Kz"/>
+                    <connections>
+                        <outlet property="tblLosAngelesCity" destination="qVd-rm-Rj0" id="N4B-hr-RO8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIX-WP-JSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2595.6521739130435" y="1063.3928571428571"/>
+        </scene>
+        <!--Chicago CityVC-->
+        <scene sceneID="4e2-kt-yAy">
+            <objects>
+                <viewController storyboardIdentifier="ChicagoCityVC" id="2lQ-Sd-aXy" customClass="ChicagoCityVC" customModule="HirenPrectical" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ffW-u8-vD0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JzL-sU-S5L">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lc1-si-b1O"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lc1-si-b1O" firstAttribute="bottom" secondItem="JzL-sU-S5L" secondAttribute="bottom" id="CEv-ZR-Azy"/>
+                            <constraint firstItem="lc1-si-b1O" firstAttribute="trailing" secondItem="JzL-sU-S5L" secondAttribute="trailing" id="QL4-eu-dyG"/>
+                            <constraint firstItem="JzL-sU-S5L" firstAttribute="top" secondItem="lc1-si-b1O" secondAttribute="top" id="Rc5-iw-xNY"/>
+                            <constraint firstItem="JzL-sU-S5L" firstAttribute="leading" secondItem="lc1-si-b1O" secondAttribute="leading" id="epc-nm-TyB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9RF-mL-dwN"/>
+                    <connections>
+                        <outlet property="tblChicagoCity" destination="JzL-sU-S5L" id="ghj-Vh-6IC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ese-bh-oGI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2618.840579710145" y="1730.3571428571429"/>
+        </scene>
+        <!--All CityVC-->
+        <scene sceneID="6AZ-hK-C7P">
+            <objects>
+                <viewController storyboardIdentifier="AllCityVC" id="gJz-62-lKY" customClass="AllCityVC" customModule="HirenPrectical" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HN7-cC-IbK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gFY-OO-tkw">
+                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="pRe-87-u4c">
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Y21-9U-xkc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y21-9U-xkc" firstAttribute="bottom" secondItem="gFY-OO-tkw" secondAttribute="bottom" id="OE7-3L-6u1"/>
+                            <constraint firstItem="gFY-OO-tkw" firstAttribute="leading" secondItem="Y21-9U-xkc" secondAttribute="leading" id="PEC-1d-cC9"/>
+                            <constraint firstItem="gFY-OO-tkw" firstAttribute="top" secondItem="pRe-87-u4c" secondAttribute="bottom" id="dLY-vD-gma"/>
+                            <constraint firstItem="pRe-87-u4c" firstAttribute="leading" secondItem="Y21-9U-xkc" secondAttribute="leading" id="gq0-CD-gA9"/>
+                            <constraint firstItem="pRe-87-u4c" firstAttribute="top" secondItem="Y21-9U-xkc" secondAttribute="top" id="t2a-jx-SkE"/>
+                            <constraint firstItem="Y21-9U-xkc" firstAttribute="trailing" secondItem="gFY-OO-tkw" secondAttribute="trailing" id="xHe-fV-NAS"/>
+                            <constraint firstItem="pRe-87-u4c" firstAttribute="trailing" secondItem="Y21-9U-xkc" secondAttribute="trailing" id="xTz-z4-p9M"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zBg-Au-8K2"/>
+                    <connections>
+                        <outlet property="searchBar" destination="pRe-87-u4c" id="xMK-ql-nhm"/>
+                        <outlet property="tblAllCity" destination="gFY-OO-tkw" id="BXh-sx-j9P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29V-1k-89E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2579.7101449275365" y="-295.3125"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5cQ-38-pk5">
+            <objects>
+                <tabBarController id="Xcd-Cv-YxE" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iH3-X8-Bcg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cgs-O0-uVt" kind="relationship" relationship="viewControllers" id="93O-vT-oZw"/>
+                        <segue destination="wXy-Hb-Elf" kind="relationship" relationship="viewControllers" id="THN-jI-668"/>
+                        <segue destination="Kdb-mx-LLZ" kind="relationship" relationship="viewControllers" id="gBZ-80-btW"/>
+                        <segue destination="gRa-VI-W8h" kind="relationship" relationship="viewControllers" id="tXb-Xm-xFY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M44-EO-0ou" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-652" y="1207"/>
+        </scene>
+        <!--AllCity-->
+        <scene sceneID="L6V-pC-URx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cgs-O0-uVt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="AllCity" id="g2N-YZ-Y6I"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rXV-xx-1a3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gJz-62-lKY" kind="relationship" relationship="rootViewController" id="WDU-9L-5up"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qzd-5W-x7B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669.5652173913045" y="-295.3125"/>
+        </scene>
+        <!--NewYork-->
+        <scene sceneID="LOO-td-hIC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wXy-Hb-Elf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="NewYork" id="VN7-Wn-rLt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NW8-Gm-WJA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qMj-XD-QQb" kind="relationship" relationship="rootViewController" id="Rdz-t9-Ete"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jfe-sp-ptP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669.5652173913045" y="409.82142857142856"/>
+        </scene>
+        <!--Los Angeles-->
+        <scene sceneID="HUA-Pz-e4d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kdb-mx-LLZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Los Angeles" id="93R-H6-I2O"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="isY-6Z-gZc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="V75-kD-hti" kind="relationship" relationship="rootViewController" id="ra6-Xd-m9K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8z5-Ze-xP7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1685.5072463768117" y="1063.3928571428571"/>
+        </scene>
+        <!--Chicago-->
+        <scene sceneID="Yw2-zf-mWB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gRa-VI-W8h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chicago" id="CqO-3L-LWR"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hcr-za-FMJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2lQ-Sd-aXy" kind="relationship" relationship="rootViewController" id="1op-MR-8rf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ks-ND-dgF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708.6956521739132" y="1730.3571428571429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
